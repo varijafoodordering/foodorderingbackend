@@ -49,6 +49,7 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                     "http://localhost:3000",
                     "https://zosh-food.vercel.app",
+                        "https://varijafoodorderingplatform.vercel.app",
                     "http://localhost:4200"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
